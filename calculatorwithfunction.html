@@ -1,0 +1,57 @@
+<script>
+console.log('my name is soya parth');
+console.log('i am full stack developer');
+var a=parseFloat(prompt('enter value of a'));
+    var b=parseFloat(prompt('enter value of b'));
+    console.log(`value of a ${a}`);
+    console.log(`value of b ${b}`);
+    console.log('please select 1 addition +');
+    console.log('please select 2 substriction -');
+    console.log('please select 3 multiplication *');
+    console.log('please select 4 division /');
+    console.log('pleace select 5 modulo %');
+
+    console.log('any one choise for 1 to 5');
+    var choise=parseFloat(prompt('any one choise for 1 to 5'));
+    console.log(`choice number ${choise}`);
+
+
+    switch(choise){
+        case 1:
+        function add(x,y){
+            return x+y;
+        }
+    var x=add(a,b);
+    console.log(`2 value addition :- ${x}`);
+    break;
+        case 2:
+            function sub(x,y){
+                return x-y;
+            }
+          let y= sub(a,b);
+            console.log(`2 value substriction :- ${y}`);
+            break;
+        case 3:
+            function mul(x,y){
+                return x*y;
+            }
+           let z= mul(a,b);
+            console.log(`2 value multiplication :- ${z}`)
+            break;
+        case 4:
+            function div(x,y){
+                return x/y;
+            }
+       let p=div(a,b);
+       console.log(`2 value division :- ${p}`);
+break;
+        case 5:
+            function modu(x,y) {
+                return a%b;
+            }
+        let q= modu(a,b);
+        console.log(`2 value modulo :- ${q} `);
+break;
+    }
+    console.log('...the end...');
+</script>
